@@ -1,0 +1,9 @@
+# python standard stuff
+*.pyc
+
+# distribution
+dist/*
+*.egg-info
+
+# IDE stuff
+.vscode/*
