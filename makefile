@@ -1,6 +1,9 @@
 build:
 	python setup.py sdist
 
+test:
+	python -m unittest discover
+
 release:
 	python setup.py sdist -d release
 
