@@ -1,14 +1,14 @@
 build:
-	python3 setup.py sdist
+	python setup.py sdist
 
 environment:
 	virtualenv --no-site-packages venv # remember to source the venv/bin/activate
 
 install: build
-	pip3 install `ls dist/* | tail -n 1`
+	pip install `ls dist/* | tail -n 1`
 
 uninstall:
-	pip3 uninstall your-python-script -y # TODO change
+	pip uninstall your-python-script -y # TODO change
 
 clean:
 	rm -f **/*.pyc
