@@ -16,7 +16,7 @@ setup(
 	# py_modules=['MODULE'],
 	install_requires=dependencies,
 	entry_points={
-		'console_scripts': ['GARBAGE=GARBAGE.GARBAGE.__main__:main'],
+		'console_scripts': ['GARBAGE=GARBAGE.__main__:main'],
 	},
 	include_package_data=True
 )
