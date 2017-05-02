@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import sys
 import argparse
 
 def main(arguments=None):
@@ -9,3 +10,5 @@ def main(arguments=None):
 		description="",
 		formatter_class=argparse.ArgumentDefaultsHelpFormatter
 	)
+
+	parser.parse_args(arguments)
