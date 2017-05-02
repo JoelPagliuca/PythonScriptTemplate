@@ -1,7 +1,5 @@
 from setuptools import setup
-
-def version():
-	open('version').read()
+from GARBAGE import __version__
 
 dependencies = [
 ]
@@ -9,15 +7,16 @@ dependencies = [
 # TODO
 setup(
 	name='GARBAGE',
-	version=version(),
+	version=__version__,
 	url='None',
 	description='DESCRIPTION',
 	author='AUTHOR',
 	author_email='None',
 	packages=['PACKAGES'],
+	# py_modules=['MODULE'],
 	install_requires=dependencies,
 	entry_points={
-		'console_scripts': ['GARBAGE=GARBAGE.GARBAGE.__main__.main'],
+		'console_scripts': ['GARBAGE=GARBAGE.GARBAGE.__main__:main'],
 	},
 	include_package_data=True
 )
