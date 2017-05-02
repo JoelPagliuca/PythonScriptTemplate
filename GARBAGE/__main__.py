@@ -10,5 +10,6 @@ def main(arguments=None):
 		description="",
 		formatter_class=argparse.ArgumentDefaultsHelpFormatter
 	)
-
+	# TODO add arguments https://docs.python.org/3/library/argparse.html
+	# read in the arguments
 	args = parser.parse_args(arguments)

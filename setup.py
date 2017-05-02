@@ -10,9 +10,9 @@ setup(
 	version=__version__,
 	url='None',
 	description='DESCRIPTION',
-	author='AUTHOR',
+	author='',
 	author_email='None',
-	packages=['PACKAGES'],
+	packages=['GARBAGE'],
 	# py_modules=['MODULE'],
 	install_requires=dependencies,
 	entry_points={
