@@ -11,4 +11,4 @@ def main(arguments=None):
 		formatter_class=argparse.ArgumentDefaultsHelpFormatter
 	)
 
-	parser.parse_args(arguments)
+	args = parser.parse_args(arguments)
