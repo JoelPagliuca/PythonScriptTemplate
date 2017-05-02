@@ -5,7 +5,7 @@ environment:
 	virtualenv --no-site-packages venv # remember to source the venv/bin/activate
 
 install: build
-	pip install `ls dist/* | tail -n 1`
+	pip install `ls -t dist/* | tail -n 1`
 
 uninstall:
 	pip uninstall your-python-script -y # TODO change
