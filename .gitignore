@@ -7,3 +7,6 @@ dist/*
 
 # IDE stuff
 .vscode/*
+
+# environment
+venv/
